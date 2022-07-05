@@ -27,9 +27,114 @@
 				</div>
 				<p>Passionate about new technologies, my talents as a developer quickly allowed me to carry out tailor-made IT projects. Autonomous, creative, versatile, I am looking for new challenges. The skills acquired from my experience will be a valuable asset to your team.</p>
 			</div>
+			<div class="card certifications">
+				<h2>Certifications CodinGame</h2>
+				<a href="https://www.codingame.com/certification/MMyQFQp4uMs8SNz6mBQI6w" target="_blank">C++ - 15 Octobre 2021</a>
+				<a href="https://www.codingame.com/certification/_2w9lP9WomVWvRgOaS3wcA" target="_blank">C - 18 Avril 2022</a>
+				<a href="https://www.codingame.com/certification/zaG6T_-K1HmvXUWI5a6omA" target="_blank">PHP - 20 Novembre 2021</a>
+				<a href="https://www.codingame.com/certification/DT_Bd_79gMtARG2RNwHptA" target="_blank">JavaScript - 9 Janvier 2022</a>
+				<a href="https://www.codingame.com/certification/WB4CSlkMN-_p002NYoYQeA" target="_blank">TypeScript - 5 Avril 2022</a>
+				<a href="https://www.codingame.com/certification/MtHo3QQXf2wYUKmtpbaI0w" target="_blank">Python 3 - 11 Juin 2022</a>
+			</div>
 		</div>
 
 		<div class="right">
+			<div class="demi">
+				<div class="card">
+					<h2>Languages</h2>
+					<div class="competance">
+						<label for="CSS">CSS</label>
+						<progress id="CSS" max="100" value="85">85%</progress>
+					</div>
+					<div class="competance">
+						<label for="HTML">HTML</label>
+						<progress id="HTML" max="100" value="85">85%</progress>
+					</div>
+					<div class="competance">
+						<label for="C/C++">C++</label>
+						<progress id="C/C++" max="100" value="80">80%</progress>
+					</div>
+					<div class="competance">
+						<label for="PHP">PHP</label>
+						<progress id="PHP" max="100" value="52">52%</progress>
+					</div>
+					<div class="competance">
+						<label for="Python3">Python3</label>
+						<progress id="Python3" max="100" value="50">50%</progress>
+					</div>
+					<div class="competance">
+						<label for="Javascript">Javascript</label>
+						<progress id="Javascript" max="100" value="60">60%</progress>
+					</div>
+				</div>
+				<div class="card">
+					<h2>Frameworks</h2>
+					<div class="competance">
+						<label for="django">Django</label>
+						<progress id="django" max="100" value="53">53%</progress>
+					</div>
+					<div class="competance">
+						<label for="NestJS">NestJS</label>
+						<progress id="NestJS" max="100" value="50">50%</progress>
+					</div>
+				</div>
+			</div>
+			<div class="card title">
+				<h2>Projects (3)</h2>
+				<div class="search">
+					<div class="btn" id="C">C</div>
+					<div class="btn" id="PHP">PHP</div>
+					<div class="btn" id="CSS">CSS</div>
+				</div>
+			</div>
+			<div class="card project">
+				<img alt="Picture project" src="./img/project1.png" />
+				<div class="content-project">
+					<div class="tag">
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>responsive</p>
+					</div>
+					<h2>Recipe Blog</h2>
+					<p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+					<div class="btn-project">
+						<a class="demo" href="https://devchallenge.io.bryanledda.fr/recipe/" target="_blank">Demo</a>
+						<a class="code" href="https://github.com/louchebem06/Recipe-page-devchallenge.io" target="_blank">Code</a>
+					</div>
+				</div>
+			</div>
+			<div class="card project">
+				<img alt="Picture project" src="./img/project2.png" />
+				<div class="content-project">
+					<div class="tag">
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>responsive</p>
+					</div>
+					<h2>My Gallery</h2>
+					<p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+					<div class="btn-project">
+						<a class="demo" href="https://devchallenge.io.bryanledda.fr/gallery/" target="_blank">Demo</a>
+						<a class="code" href="https://github.com/louchebem06/My-Gallery-devchallenge.io" target="_blank">Code</a>
+					</div>
+				</div>
+			</div>
+			<div class="card project">
+				<img alt="Picture project" src="./img/project3.png" />
+				<div class="content-project">
+					<div class="tag">
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>responsive</p>
+					</div>
+					<h2>Checkout</h2>
+					<p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+					<div class="btn-project">
+						<a class="demo" href="https://devchallenge.io.bryanledda.fr/checkout/" target="_blank">Demo</a>
+						<a class="code" href="https://github.com/louchebem06/Checkout-Page-devchallenge.io" target="_blank">Code</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	
 	</div>
@@ -38,4 +143,32 @@
 		<p>created by <a href="https://github.com/louchebem06" target="_blank">louchebem06</a> - devChallenges.io</p>
 	</footer>
 </body>
+<script>
+	/*WIP*/
+	const c = document.getElementById('C');
+	const css = document.getElementById('CSS');
+	const php = document.getElementById('PHP');
+	let boolC = false;
+
+	c.onclick = function() {
+		if (boolC == false) {
+			boolC = !boolC;
+			c.classList.add('active');
+		}
+		else
+			c.classList.remove('active');
+		css.classList.remove('active');
+		php.classList.remove('active');
+	};
+	css.addEventListener('click', function (event) {
+		css.classList.add('active');
+		c.classList.remove('active');
+		php.classList.remove('active');
+	});
+	php.addEventListener('click', function (event) {
+		php.classList.add('active');
+		css.classList.remove('active');
+		c.classList.remove('active');
+	});
+</script>
 </html>
